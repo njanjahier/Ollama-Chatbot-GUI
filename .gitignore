@@ -1,0 +1,9 @@
+# Generalno ignorisati fajlove sa tajnim podacima
+.env
+
+# Ignorisati fajlove koji se generišu tokom rada, a ne trebaju kodu
+__pycache__/
+*.pyc
+
+# Ignorisati i istoriju chata
+chat_history.txt
