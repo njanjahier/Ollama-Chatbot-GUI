@@ -1,0 +1,25 @@
+Ti: kako si
+Bot:  Zdravo! Rado ti! (Howdy! Glad to meet you!)
+
+Ti: ja sam sanja 
+Bot:  Hehe, zahvaljujem! Ja sam namenjen da vas pomognem sa rješavanjem pitanja, tako da ću se održati kratki i konkretni u odgovorima.
+
+Kako mogu biti koristan? Zapitajte neku stavku koja vam je trenutno zainteresirala ili pitanje na koje nemate odgovora.
+
+Ti: sta je patela alta
+Bot:  Patela alta, poznata i kao hipertrofija diska intervertebralnog, javlja se kada je diski intervertebralni u lumbalnom rubu prevelik ili povećan. To može uzrokovati stisak na nervus spinosus, što rezultira bolom u leđima i bolovima u nogama (sciatici).
+
+Ovaj problem se može pojaviti zbog starosti, teškog fizičkog rada ili nedostatka pokreta.
+
+Ti: patela alta kod koljena sta je 
+Bot:  Patela alta (hipertrofija diska intervertebralnog) javlja se u lumbalnom rubu, tj. leđima, a ne koljenima. Koljena su povezana s diskovima lumbara, ali različiti problemi, kao što je patela alta, javljaju se na različitim mestima lumbalnog ruba.
+
+Ukoliko imate problema sa koljenom, a ne leđem, preporučujem da kontaktirate zdravstvenog rada ili fizioterapeuta da bi se utvrdio tačan uzrok bolesti i prošli na tretman.
+
+Ti: sta je osteotomija 
+Bot:  Stvarno! Osteotomija je procedura u kojoj se kost izrezbare ili rezaju radi uspostavljanja novih zglobova, otklonjenja deformacije, ili popravljanja frakture.
+
+Ovo može biti neophodno za lečenje određenih bolesti kostiju, poput tuberkulose, sarcoma i ostale lošću deformirajućih bolesti koštanog sistema.
+
+Ukoliko imate pitanje o osteotomiji ili drugim operacijama na kosti, preporučujem da kontaktirate zdravstvenog rada ili ortopedičara za detaljne informacije i savete.
+
