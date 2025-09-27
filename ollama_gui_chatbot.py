@@ -2,21 +2,19 @@ import ollama
 import tkinter as tk
 from tkinter import scrolledtext, END
 
-# ==============================
 # Konfiguracija
-# ==============================
+
 MODEL = "mistral"  # promijeni u "llama3", "gemma", itd.
 SYSTEM_PROMPT = "Ti si ljubazan i šaljiv chatbot koji odgovara kratko."
 HISTORY_FILE = "chat_history.txt"
 
-# ==============================
 # Funkcija za chat
-# ==============================
+
 def chat_with_ollama(user_input, messages=[]):
-    # Dodaj user input u poruke
+    # Dodavanje user input u poruke
     messages.append({"role": "user", "content": user_input})
 
-    # Pozovi Ollama model
+    # Pozovivanje Ollama modela
     response = ollama.chat(
         model=MODEL,
         messages=messages
@@ -25,15 +23,14 @@ def chat_with_ollama(user_input, messages=[]):
     reply = response["message"]["content"]
     messages.append({"role": "assistant", "content": reply})
 
-    # Snimi u fajl
+    # Snimanje u fajl
     with open(HISTORY_FILE, "a", encoding="utf-8") as f:
         f.write(f"Ti: {user_input}\nBot: {reply}\n\n")
 
     return reply, messages
 
-# ==============================
 # GUI verzija
-# ==============================
+
 def send_message():
     user_input = entry.get()
     if not user_input.strip():
@@ -49,7 +46,7 @@ def send_message():
     chat_area.yview(END)
 
 if __name__ == "__main__":
-    # Inicijalne poruke sa system prompt-om
+    # Inicijalne poruke sa system promptom
     conversation = [{"role": "system", "content": SYSTEM_PROMPT}]
 
     # GUI prozor
@@ -67,3 +64,4 @@ if __name__ == "__main__":
     send_button.pack(side=tk.RIGHT, padx=10, pady=10)
 
     root.mainloop()
+
