@@ -1,4 +1,5 @@
-Lokalni LLM Chatbot: Demonstracija Ollama API Integracije
+## Lokalni LLM Chatbot: Demonstracija Ollama API Integracije
+
 Ovaj projekat predstavlja Python desktop aplikaciju kreiranu sa ciljem demonstracije vještine integracije Velikih Jezičnih Modela (LLM) u prilagođena rješenja. Aplikacija koristi Ollama API za lokalnu interakciju sa LLM-ovima (npr. Mistral, Llama 3) i Tkinter za izradu korisničkog interfejsa.
 
 
