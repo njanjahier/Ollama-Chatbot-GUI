@@ -1,40 +1,72 @@
-## Lokalni LLM Chatbot: Demonstracija Ollama API Integracije
+## Ollama Chatbot GUI
 
-Ovaj projekat predstavlja Python desktop aplikaciju kreiranu sa ciljem demonstracije vještine integracije Velikih Jezičnih Modela (LLM) u prilagođena rješenja. Aplikacija koristi Ollama API za lokalnu interakciju sa LLM-ovima (npr. Mistral, Llama 3) i Tkinter za izradu korisničkog interfejsa.
+## 📘 Overview
+Ollama Chatbot GUI is a desktop-based graphical user interface that enables users to interact with Large Language Models (LLMs) through a clean and intuitive chat window.  
+Instead of using command-line tools, this application provides a simple and user-friendly way to send prompts, view responses, and manage chat interactions.
+The goal of this project is to make local or remote LLM usage more accessible for developers, researchers, and everyday users who want an easy and reliable way to work with AI models.
+
+## ✨ Key Features
+- Modern and responsive graphical interface  
+- Send and receive messages with LLM models  
+- Chat history panel  
+- Ability to clear chat history  
+- Adjustable model parameters (e.g., temperature, max tokens)*  
+- Lightweight and simple to run locally  
+- Optional connection to local LLM engines such as **Ollama**
 
 
-Ključne Vještine i Tehnička Vrijednost
-Ovaj projekat je dizajniran da prikaže sljedeće vještine relevantne za IT Konsalting i Data Science pozicije:
-
--API Integracija i Lokalno Hostovanje: Korištenje Ollama API-ja (umjesto gotovih cloud servisa) pokazuje razumijevanje lokalnog implementiranja i integracije ML modela u funkcionalni softver.
-
--Sistematska Konfiguracija: Primjena System Prompt-a i mogućnost promjene modela (MODEL = "mistral") demonstrira vještinu rada sa softverskim rješenjima koja su lako konfigurabilna i prilagodljiva potrebama klijenta.
-
--Sigurnosna Praksa (Best Practice): Korištenje .gitignore fajla za zaštitu osjetljivih ključeva i podataka (npr. .env i chat_history.txt).
-
--GUI Razvoj (Frontend): Korištenje Tkinter biblioteke za kreiranje funkcionalnog korisničkog interfejsa.
+## 🛠️ Tech Stack
+- **Python**
+- GUI Framework: *(PyQt5 / Tkinter / CustomTkinter — update this based on your code)*
+- **Requests** / **HTTP Client** for communication with the model
+- Optional integration with **Ollama** or other LLM backends
 
 
-Tehničke Specifikacije:
+## 🚀 Installation & Setup
 
-Glavni Jezik:	Python programski jezik.
-LLM Integracija:	Ollama,	Python klijent za interakciju s lokalno hostovanim LLM-ovima.
-Korisnički Interfejs:	Tkinter	Ugrađena, Python biblioteka za izradu GUI-a.
-Logika:	ollama_gui_chatbot.py,	upravlja lančanim razgovorom, kontekstom i čuvanjem historije.
+### 1. Clone the repository
+git clone https://github.com/njanjahier/Ollama-Chatbot-GUI.git
+cd Ollama-Chatbot-GUI
 
-Uputstvo za Pokretanje
-Da biste pokrenuli aplikaciju, potrebno je da imate instaliran Python 3 i da slijedite ove korake:
-
-1. Instalirajte Ollamu: Preuzmite i instalirajte Ollama Desktop aplikaciju (https://ollama.com).
-
-2. Pokrenite Model: Otvorite terminal i preuzmite model po izboru (npr. Mistral):
-ollama pull mistral
-
-3. Instalirajte Python biblioteke:
+### 2. Install dependencies
 pip install -r requirements.txt
 
-4. Pokrenite Aplikaciju:
-python ollama_gui_chatbot.py
+### 3. Run the application
+python main.py
 
 
-Autor: Sanja Savić | Godina: 2025.
+💬 Usage
+
+1. Launch the application using the command above.
+2. Type your message into the input field at the bottom of the window.
+3. Click Send to submit the prompt to the LLM.
+4. The model’s response will appear in the chat window.
+5. Use Clear Chat (or your equivalent button) to reset the conversation.
+
+
+🚧 Known Issues / Limitations
+
+- Limited support for advanced model configuration
+- No multi-session or multi-tab chat support yet
+- Requires a running Ollama or API backend if using remote models
+- Large messages may cause slower UI response
+- No built-in export of chat history
+
+
+📅 Roadmap
+
+Planned future improvements:
+- Multi-tab or multi-session chat support
+- Dark / light theme toggle
+- Export chat history to .txt or .json
+- Integration with additional LLM providers
+- Customizable model parameters (temperature, top-p, max tokens)
+- Build application executables (.exe / .app)
+- Add logging for debugging and session tracking
+
+
+
+
+
+
+
