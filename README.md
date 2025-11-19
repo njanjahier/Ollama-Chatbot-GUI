@@ -35,7 +35,7 @@ pip install -r requirements.txt
 python main.py
 
 
-💬 Usage
+## 💬 Usage
 
 1. Launch the application using the command above.
 2. Type your message into the input field at the bottom of the window.
@@ -44,7 +44,7 @@ python main.py
 5. Use Clear Chat (or your equivalent button) to reset the conversation.
 
 
-🚧 Known Issues / Limitations
+## 🚧 Known Issues / Limitations
 
 - Limited support for advanced model configuration
 - No multi-session or multi-tab chat support yet
@@ -53,7 +53,7 @@ python main.py
 - No built-in export of chat history
 
 
-📅 Roadmap
+## 📅 Roadmap
 
 Planned future improvements:
 - Multi-tab or multi-session chat support
